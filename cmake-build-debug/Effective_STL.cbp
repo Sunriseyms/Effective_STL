@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Effective_STL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="effective_stl">
+				<Option output="/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/effective_stl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yangmaosheng/CLionProjects/Effective_STL/src"/>
+					<Add directory="/Users/yangmaosheng/CLionProjects/Effective_STL/src/Knowledge_Surrounding"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 effective_stl"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="effective_stl/fast">
+				<Option output="/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/effective_stl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yangmaosheng/CLionProjects/Effective_STL/src"/>
+					<Add directory="/Users/yangmaosheng/CLionProjects/Effective_STL/src/Knowledge_Surrounding"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 effective_stl/fast"/>
+					<CompileFile command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/local/bin/gmake -j4 -f &quot;/Users/yangmaosheng/CLionProjects/Effective_STL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yangmaosheng/CLionProjects/Effective_STL/src/EffectiveStl.cpp">
+			<Option target="effective_stl"/>
+		</Unit>
+		<Unit filename="/Users/yangmaosheng/CLionProjects/Effective_STL/src/EffectiveStlRule.cpp">
+			<Option target="effective_stl"/>
+		</Unit>
+		<Unit filename="/Users/yangmaosheng/CLionProjects/Effective_STL/src/EffectiveStlRule.h">
+			<Option target="effective_stl"/>
+		</Unit>
+		<Unit filename="/Users/yangmaosheng/CLionProjects/Effective_STL/src/Knowledge_Surrounding/MethodObjectPointLearn.cpp">
+			<Option target="effective_stl"/>
+		</Unit>
+		<Unit filename="/Users/yangmaosheng/CLionProjects/Effective_STL/src/Knowledge_Surrounding/MethodObjectPointLearn.h">
+			<Option target="effective_stl"/>
+		</Unit>
+		<Unit filename="/Users/yangmaosheng/CLionProjects/Effective_STL/src/StlElementIsPoint.cpp">
+			<Option target="effective_stl"/>
+		</Unit>
+		<Unit filename="/Users/yangmaosheng/CLionProjects/Effective_STL/src/StlElementIsPoint.h">
+			<Option target="effective_stl"/>
+		</Unit>
+		<Unit filename="/Users/yangmaosheng/CLionProjects/Effective_STL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
